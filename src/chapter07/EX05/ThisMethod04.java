@@ -12,10 +12,15 @@ class Car{
 		maxSpeed = 200.0;
 	}
 	
-	Car(String companyName){
+	Car(String companyName){ 
 		this();
 		this.companyName = companyName;
 		}
+	
+	//Car(String a){ 
+	//	this();
+	//	this.companyName = a;  //이론상 a로도 가능하긴함
+	//}
 	
 	Car(String companyName, String color){
 		this(companyName);
