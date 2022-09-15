@@ -3,7 +3,7 @@ package chapter09.EX01;
 // 클래스의 접근 지정자 : public 과 default
 //필드,생성자,메소드의 접근 지정자 :  public , protected, default, private
 
-//	public : 다른 패키지, 같은 패키지 모두가능
+//	public : 다른 패키지(임포트해주기), 같은 패키지 모두가능
 //	protected : 다른패키지(상속된경우만), 같은패키지 모두가능
 //	default : 같은패키지 에서만 가능
 //	private :  같은 파일 에서만 가능
